@@ -1,0 +1,191 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "joomla",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "package": "awesomplete",
+      "name": "awesomplete",
+      "version": "1.1.4",
+      "js": [
+        "media/vendor/awesomplete/js/awesomplete.min.js"
+      ],
+      "css": [
+        "media/vendor/awesomplete/css/awesomplete.css"
+      ]
+    },
+    {
+      "package": "bootstrap",
+      "name": "bootstrap.js",
+      "version": "4.3.1",
+      "dependencies": [
+        "jquery"
+      ],
+      "js": [
+        "media/vendor/bootstrap/js/bootstrap.min.js"
+      ]
+    },
+    {
+      "package": "bootstrap",
+      "name": "bootstrap.js.bundle",
+      "version": "4.3.1",
+      "dependencies": [
+        "jquery"
+      ],
+      "js": [
+        "media/vendor/bootstrap/js/bootstrap.bundle.min.js"
+      ]
+    },
+    {
+      "package": "bootstrap",
+      "name": "bootstrap.css",
+      "version": "4.3.1",
+      "css": [
+        "media/vendor/bootstrap/css/bootstrap.min.css"
+      ]
+    },
+    {
+      "package": "bootstrap",
+      "name": "bootstrap.css.grid",
+      "version": "4.3.1",
+      "dependencies": [
+        "bootstrap.css"
+      ],
+      "css": [
+        "media/vendor/bootstrap/css/bootstrap-grid.min.css"
+      ]
+    },
+    {
+      "package": "cropperjs",
+      "name": "cropperjs",
+      "version": "1.2.2",
+      "js": [
+        "media/vendor/cropperjs/js/cropper.min.js"
+      ],
+      "css": [
+        "media/vendor/cropperjs/css/cropper.min.css"
+      ]
+    },
+    {
+      "package": "choices.js",
+      "name": "choicesjs",
+      "version": "7.0.0",
+      "js": [
+        "media/vendor/choicesjs/js/choices.min.js"
+      ],
+      "css": [
+        "media/vendor/choicesjs/css/choices.min.css"
+      ]
+    },
+    {
+      "package": "diff",
+      "name": "diff",
+      "version": "3.4.0",
+      "js": [
+        "media/vendor/diff/js/diff.js"
+      ]
+    },
+    {
+      "package": "dragula",
+      "name": "dragula",
+      "version": "3.7.2",
+      "js": [
+        "media/vendor/dragula/js/dragula.min.js"
+      ],
+      "css": [
+        "media/vendor/dragula/css/dragula.min.css"
+      ]
+    },
+    {
+      "package": "focus-visible",
+      "name": "focus-visible",
+      "version": "4.1.5",
+      "js": [
+        "media/vendor/focus-visible/js/focus-visible.min.js"
+      ]
+    },
+    {
+      "package": "@fortawesome/fontawesome-free",
+      "name": "fontawesome-free",
+      "version": "5.9.0",
+      "css": [
+        "media/vendor/fontawesome-free/css/fontawesome.min.css"
+      ]
+    },
+    {
+      "package": "jquery",
+      "name": "jquery",
+      "version": "3.4.1",
+      "js": [
+        "media/vendor/jquery/js/jquery.min.js"
+      ]
+    },
+    {
+      "package": "jquery-migrate",
+      "name": "jquery-migrate",
+      "version": "3.1.0",
+      "dependencies": [
+        "jquery"
+      ],
+      "js": [
+        "media/vendor/jquery-migrate/js/jquery-migrate.min.js"
+      ]
+    },
+    {
+      "package": "punycode",
+      "name": "punycode",
+      "version": "1.4.1",
+      "js": [
+        "media/vendor/punycode/js/punycode.js"
+      ]
+    },
+    {
+      "package": "@claviska/jquery-minicolors",
+      "name": "minicolors",
+      "version": "2.2.6",
+      "dependencies": [
+        "jquery"
+      ],
+      "js": [
+        "media/vendor/minicolors/js/jquery.minicolors.min.js"
+      ],
+      "css": [
+        "media/vendor/minicolors/css/jquery.minicolors.css"
+      ]
+    },
+    {
+      "package": "css-vars-ponyfill",
+      "name": "css-vars-ponyfill",
+      "version": "1.17.2",
+      "js": [
+        "media/vendor/css-vars-ponyfill/js/css-vars-ponyfill.min.js"
+      ]
+    },
+    {
+      "package": "chosen-js",
+      "name": "chosen",
+      "version": "1.6.2",
+      "dependencies": [
+        "jquery"
+      ],
+      "js": [
+        "media/vendor/chosen/js/chosen.jquery.js"
+      ],
+      "css": [
+        "media/vendor/chosen/css/chosen.css"
+      ]
+    },
+    {
+      "package": "qrcode-generator",
+      "name": "qrcode",
+      "version": "1.4.3",
+      "js": [
+        "media/vendor/qrcode/js/qrcode.js",
+        "media/vendor/qrcode/js/qrcode_SJIS.js",
+        "media/vendor/qrcode/js/qrcode_UTF8.js"
+      ]
+    }
+  ]
+}
